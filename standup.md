@@ -18,6 +18,9 @@ Update estimates or priorities if mentioned
 
 Suggest new Linear tickets for any untracked work mentioned
 Do not automatically create these tickets just provide a list and I will indicate which tickets to generate.
+The list should be numbered so I can select which tickets to create.
+
+
 Recommend appropriate:
 
 Ticket titles and descriptions
@@ -29,11 +32,28 @@ Due dates if mentioned
 
 
 4. Formatted Output
-Provide a clean, well-formatted summary including:
+Provide a clean, well-formatted enhanced standup including:
 
 Yesterday's Accomplishments (bulleted list)
 Today's Focus (prioritized list)
 Blockers & Dependencies (if any)
+
+This should be well formatted with links and a sentence explanation for each
+so I can copy and paste it into our team's standup in the morning it should look like
+
+Example:
+Standup 8/4
+Yesterday:
+* bullet point 1 (link1)
+* bullet point 2 (link2)
+etc.
+Today:
+* bullet point 1 (link1)
+* bullet point 2 (link2)
+etc.
+
+The links should mostly only go to the linear ticket and should only link
+if there is something to link.
 
 
 5. Smart Suggestions

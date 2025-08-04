@@ -51,6 +51,7 @@ Today:
 * bullet point 1 (link1)
 * bullet point 2 (link2)
 etc.
+Blockers: example blocker text
 
 The links should mostly only go to the linear ticket and should only link
 if there is something to link.

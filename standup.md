@@ -18,20 +18,28 @@ Update estimates or priorities if mentioned
 
 Suggest new Linear tickets for any untracked work mentioned
 Do not automatically create these tickets just provide a list and I will indicate which tickets to generate.
-The list should be numbered so I can select which tickets to create.
+The list should be numbered T1,T2,T3 etc. so I can select which tickets to create.
+If I respond with T1 you should create ticket T1 as listed
+If I respond T1-4 you should create tickets T1,T2,T3,T4
+etc.
 
 
 Recommend appropriate:
 
 Ticket titles and descriptions
 Priority levels
-Team assignments
+Team assignments - Should generally be assigned to me.
 Labels or tags
 Due dates if mentioned
 
+4. Smart Suggestions
 
+Identify patterns or recurring issues
+Suggest process improvements
+Highlight items that might need stakeholder communication
+Recommend ticket prioritization adjustments
 
-4. Formatted Output
+5. Formatted Output
 Provide a clean, well-formatted enhanced standup including:
 
 Yesterday's Accomplishments (bulleted list)
@@ -57,9 +65,3 @@ The links should mostly only go to the linear ticket and should only link
 if there is something to link.
 
 
-5. Smart Suggestions
-
-Identify patterns or recurring issues
-Suggest process improvements
-Highlight items that might need stakeholder communication
-Recommend ticket prioritization adjustments

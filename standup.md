@@ -8,6 +8,7 @@ Summarize what I accomplished yesterday
 Identify what I'm planning to work on today
 Flag any blockers or issues that need attention
 Note any dependencies or collaboration needs
+Search tickets that were completed yesterday and if not included in standup, add them.
 
 2. Linear Updates
 

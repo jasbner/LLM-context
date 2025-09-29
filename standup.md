@@ -35,8 +35,9 @@ Update estimates or priorities if mentioned
 Suggest new Linear tickets for any untracked work mentioned
 Do not automatically create these tickets just provide a list and I will indicate which tickets to generate.
 The list should be numbered T1,T2,T3 etc. so I can select which tickets to create.
-If I respond with T1 you should create ticket T1 as listed
-If I respond T1-4 you should create tickets T1,T2,T3,T4
+* If I respond with T1 you should create ticket T1 as listed
+* If I respond T1-4 you should create tickets T1,T2,T3,T4
+* If I respond t1,t2, and regen you should create tickets T1 and T2 and also regenerate the formatted standup output (including the new tickets if relevant)
 etc.
 
 

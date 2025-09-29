@@ -67,6 +67,8 @@ This should be well formatted with links and a sentence explanation for each
 so I can copy and paste it into our team's slack standup in the morning it should look like:
 
 The header should be "Standup [current date]" (use today's actual date, not tomorrow)
+when in doubt, I explicitly reference the "current date is [X]" 
+from my system context before writing any dates. 
 
 Standup 8/4
 Yesterday:

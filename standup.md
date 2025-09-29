@@ -70,6 +70,9 @@ The header should be "Standup [current date]" (use today's actual date, not tomo
 when in doubt, I explicitly reference the "current date is [X]" 
 from my system context before writing any dates. 
 
+The label of the date is always the day that it is being written/delivered for standup.
+Here's an example of the structure/format:
+
 Standup 8/4
 Yesterday:
 * bullet point 1 (link1)

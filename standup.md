@@ -74,16 +74,32 @@ from my system context before writing any dates.
 The label of the date is always the day that it is being written/delivered for standup.
 Here's an example of the structure/format:
 
-Standup 8/4
-Yesterday:
-* bullet point 1 (link1)
-* bullet point 2 (link2)
-etc.
-Today:
-* bullet point 1 (link1)
-* bullet point 2 (link2)
-etc.
-Blockers: example blocker text
+## Slack Formatting Requirements
+
+When generating the formatted standup output for Slack:
+- Use hyphens (`-`) for bullets, NOT asterisks (`*`)
+- Add blank lines between each bullet point for consistent Slack parsing
+- Keep markdown links in format [EVE-XXXX](https://linear.app/eve-bio/issue/EVE-XXXX/...)
+- The blank lines between bullets are critical - without them, Slack may drop bullets inconsistently
+
+Example format:
+```
+**Standup 1/22**
+
+**Yesterday:**
+
+- Item 1 with description ([EVE-1256](https://linear.app/eve-bio/issue/EVE-1256))
+
+- Item 2 with description ([EVE-1258](https://linear.app/eve-bio/issue/EVE-1258))
+
+**Today:**
+
+- Item 1 with description ([EVE-1234](https://linear.app/eve-bio/issue/EVE-1234))
+
+- Item 2 with description
+
+**Blockers:** Blocker text or "No Blockers"
+```
 
 
 The links should mostly only go to the linear ticket and should only link

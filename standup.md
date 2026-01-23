@@ -39,7 +39,7 @@ The list should be numbered T1,T2,T3 etc. so I can select which tickets to creat
 * If I respond T1-4 you should create tickets T1,T2,T3,T4
 * If I respond t1,t2, and regen you should create tickets T1 and T2 and also regenerate the formatted standup output (including the new tickets if relevant)
 etc.
-
+Try to select the correct project when generating a new ticket.  In general try to avoid the "Collection of small issues" project and bin tickets into a more appropriate project.
 
 Recommend appropriate:
 

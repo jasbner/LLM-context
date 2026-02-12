@@ -77,10 +77,11 @@ Here's an example of the structure/format:
 ## Slack Formatting Requirements
 
 When generating the formatted standup output for Slack:
-- Use hyphens (`-`) for bullets, NOT asterisks (`*`)
+- Use Unicode bullets (`•`) for each item, NOT hyphens (`-`) or asterisks (`*`)
+- Hyphens and asterisks do not paste reliably into Slack as bullets
 - Add blank lines between each bullet point for consistent Slack parsing
 - Keep markdown links in format [EVE-XXXX](https://linear.app/eve-bio/issue/EVE-XXXX/...)
-- The blank lines between bullets are critical - without them, Slack may drop bullets inconsistently
+- The blank lines between bullets are critical — without them, Slack may drop bullets inconsistently
 
 Example format:
 ```
@@ -88,15 +89,15 @@ Example format:
 
 **Yesterday:**
 
-- Item 1 with description ([EVE-1256](https://linear.app/eve-bio/issue/EVE-1256))
+• Item 1 with description ([EVE-1256](https://linear.app/eve-bio/issue/EVE-1256))
 
-- Item 2 with description ([EVE-1258](https://linear.app/eve-bio/issue/EVE-1258))
+• Item 2 with description ([EVE-1258](https://linear.app/eve-bio/issue/EVE-1258))
 
 **Today:**
 
-- Item 1 with description ([EVE-1234](https://linear.app/eve-bio/issue/EVE-1234))
+• Item 1 with description ([EVE-1234](https://linear.app/eve-bio/issue/EVE-1234))
 
-- Item 2 with description
+• Item 2 with description
 
 **Blockers:** Blocker text or "No Blockers"
 ```
@@ -105,4 +106,3 @@ Example format:
 The links should mostly only go to the linear ticket and should only link
 if there is something to link.
 If no blockers say "No Blockers"
-

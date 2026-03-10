@@ -102,6 +102,7 @@ Example format:
 **Blockers:** Blocker text or "No Blockers"
 ```
 
+CRITICAL: Never wrap the formatted standup output in a code block (no triple backticks). Output the standup as raw text directly in the response so it can be copied and pasted into Slack without stripping backtick wrappers. The example block below is shown in a code block for illustration only — the actual standup output must never be wrapped in one.
 
 The links should mostly only go to the linear ticket and should only link
 if there is something to link.
